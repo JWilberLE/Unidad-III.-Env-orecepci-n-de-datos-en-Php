@@ -13,5 +13,5 @@
 
 ?>
 
-    echo <hr>
+    <hr>
     <a href="registro.php"><button type="button">R E G R E S A R</button></a>
