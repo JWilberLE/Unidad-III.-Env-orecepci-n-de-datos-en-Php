@@ -1,10 +1,13 @@
 <?php
+
+
 $servidor="localhost";
 $usuario="root";
 $password="";
+$base="bs_integradora";
 
 // crear una variable para la conexión
-$conn=mysqli_connect($servidor,$usuario,$password);
+$conn=mysqli_connect($servidor,$usuario,$password,$base);
 
 // probar la conexión
 if(!$conn)
@@ -13,4 +16,6 @@ if(!$conn)
 }
 
 echo"Conexion realizada correctamente";  
+
+
 ?>
